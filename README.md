@@ -1,3 +1,5 @@
+![1689506747](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/5390dc16-14c5-4393-88b6-72d93ba348a7)
+![Uploading 1689506730.png…]()
 # CometLabs Assessment
 
 ## Installation
@@ -77,3 +79,10 @@ PORT=8000
     "output": "3"
   }
   ```
+
+  ## Working Screenshots
+![Uploading 1689506716.png…]()
+![Uploading 1689506711.png…]()
+![1689506697](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/9581c293-f648-4727-a647-229ea50554f8)
+![1689506690](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/2b93dec0-69f0-4abe-b713-85368a556c81)
+![1689506610](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/25947675-e83f-4101-938c-38461e0e51a9)
