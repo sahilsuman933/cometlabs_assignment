@@ -1,5 +1,9 @@
-![1689506747](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/5390dc16-14c5-4393-88b6-72d93ba348a7)
-![Uploading 1689506730.png…]()
+![1689506747](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/63057221-e678-42c6-8c8c-d56eb71da556)
+![1689506730](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/8cb2ac49-9764-4f41-9490-e9e735fe3b05)
+![1689506716](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/5098c4b7-8d44-431d-8a62-a118694c6eb2)
+![1689506711](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/7935461f-1584-4636-8654-a17d271720be)
+![1689506697](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/f31cfa8c-91d6-4a1b-ae30-9ad1e295a6bb)
+
 # CometLabs Assessment
 
 ## Installation
@@ -81,8 +85,13 @@ PORT=8000
   ```
 
   ## Working Screenshots
-![Uploading 1689506716.png…]()
-![Uploading 1689506711.png…]()
-![1689506697](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/9581c293-f648-4727-a647-229ea50554f8)
-![1689506690](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/2b93dec0-69f0-4abe-b713-85368a556c81)
-![1689506610](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/25947675-e83f-4101-938c-38461e0e51a9)
+
+![1689506610](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/cb61d3a0-745b-4764-9201-66a278204d8d)
+![1689506690](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/8aa17970-638e-413f-8548-72d63e40017f)
+![1689506697](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/67b68605-035f-4f74-a41e-80a49253f34e)
+![1689506711](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/da78ffd1-96ff-4856-9788-e4dd788f36a4)
+![1689506716](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/c9bae6a0-fc31-4e95-b325-f2d855f6a5b6)
+![1689506730](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/5e1dcea4-563b-41cf-9216-c21252706318)
+![1689506747](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/b96fbcde-010d-45d3-b7cb-2917b296eb6b)
+
+
