@@ -1,9 +1,3 @@
-![1689506747](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/63057221-e678-42c6-8c8c-d56eb71da556)
-![1689506730](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/8cb2ac49-9764-4f41-9490-e9e735fe3b05)
-![1689506716](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/5098c4b7-8d44-431d-8a62-a118694c6eb2)
-![1689506711](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/7935461f-1584-4636-8654-a17d271720be)
-![1689506697](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/f31cfa8c-91d6-4a1b-ae30-9ad1e295a6bb)
-
 # CometLabs Assessment
 
 ## Installation
