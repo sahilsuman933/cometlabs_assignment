@@ -70,7 +70,9 @@ PORT=8000
 - **DELETE /questions/:id**: Delete a coding question (requires admin role).
 - **GET /questions**: Get all coding questions.
 - **POST /questions/:id/testcases**: Add a test case to a coding question (requires admin role).
+
   - **Sample Request:**
+
   ```json
   {
     "input": "1 2",
@@ -87,5 +89,3 @@ PORT=8000
 ![1689506716](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/c9bae6a0-fc31-4e95-b325-f2d855f6a5b6)
 ![1689506730](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/5e1dcea4-563b-41cf-9216-c21252706318)
 ![1689506747](https://github.com/sahilsuman933/cometlabs_assignment/assets/34382211/b96fbcde-010d-45d3-b7cb-2917b296eb6b)
-
-
