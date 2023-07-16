@@ -1,10 +1,9 @@
 {
-  "name": "codecruncher",
+  "name": "cometlab_assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sahil Suman",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
     "dev": "nodemon --exec babel-node app.js",
     "lint": "eslint --fix ."
   },
@@ -14,18 +13,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "axios": "^1.4.0",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "joi": "^17.9.2",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.4",
     "nodemailer": "^6.9.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
     "@babel/node": "^7.22.6",
     "@babel/preset-env": "^7.22.9",

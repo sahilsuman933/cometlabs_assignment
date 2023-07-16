@@ -7,7 +7,7 @@ const checkRole = (role) => (req, res, next) => {
     return res.status(403).json({ error: 'Forbidden' });
   }
 
-  next();
+  return next();
 };
 
 export default checkRole;

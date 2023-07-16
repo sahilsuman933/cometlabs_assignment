@@ -1,19 +1,7 @@
-import Joi from 'joi';
 import Question from '../model/question';
 import TestCase from '../model/testCase';
 
 export const addQuestion = async (req, res) => {
-  const addQuestionSchema = Joi.object({
-    title: Joi.string().required(),
-    description: Joi.string().required(),
-  });
-
-  const { error } = addQuestionSchema.validate(req.body);
-
-  if (error) {
-    return res.status(400).json({ error: error.details[0].message });
-  }
-
   const { title, description } = req.body;
 
   try {
@@ -27,17 +15,7 @@ export const addQuestion = async (req, res) => {
 };
 
 export const editQuestion = async (req, res) => {
-  const editQuestionSchema = Joi.object({
-    title: Joi.string().required(),
-    description: Joi.string().required(),
-  });
-
   const { id } = req.params;
-  const { error } = editQuestionSchema.validate(req.body);
-
-  if (error) {
-    return res.status(400).json({ error: error.details[0].message });
-  }
 
   const { title, description } = req.body;
 
@@ -77,17 +55,13 @@ export const getQuestions = async (req, res) => {
 };
 
 export const getQuestionById = async (questionId) => {
-  try {
-    const question = await Question.findById(questionId).populate('testCases');
+  const question = await Question.findById(questionId).populate('testCases');
 
-    if (!question) {
-      throw new Error('Question not found');
-    }
-
-    return question;
-  } catch (error) {
-    throw error;
+  if (!question) {
+    throw new Error('Question not found');
   }
+
+  return question;
 };
 
 export const addTestCaseToQuestion = async (req, res) => {
@@ -106,9 +80,9 @@ export const addTestCaseToQuestion = async (req, res) => {
     question.testCases.push(newTestCase);
     await question.save();
 
-    res.status(201).json(newTestCase);
+    return res.status(201).json(newTestCase);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Internal Server Error' });
+    return res.status(500).json({ error: 'Internal Server Error' });
   }
 };
